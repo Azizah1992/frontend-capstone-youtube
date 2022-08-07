@@ -4,7 +4,7 @@
   --third-bg-clr: #313131;
   --the4th-clr: #111111;
   --text-clr: #ddd;
-  --prpl-clr:rgb(97, 53, 123);
+  --blue-clr: #3ea6ff;
 }
 .app.light {
   --main-bg-clr: rgba(255, 255, 255);
