@@ -25,7 +25,7 @@
 .profile__avatar {
   width: 80px;
   height: 80px;
-  background: teal;
+  background:rgb(163, 2, 191);
   border-radius: 50%;
   font-size: 40px;
   color: #fff;
@@ -49,7 +49,7 @@
   gap: 10px;
 }
 .profile__btns > button {
-  background: var(--blue-clr);
+  background: var(--prpl-clr);
   padding: 10px 20px;
   font-size: 16px;
   text-transform: uppercase;
