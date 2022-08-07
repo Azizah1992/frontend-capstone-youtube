@@ -10,7 +10,7 @@ import {
   MdAccessTime,
 } from "react-icons/md";
 
-import "../styles/Sidebar.css";
+
 const localUser = JSON.parse(localStorage.getItem("user") || "null");  //
 
 const Sidebar = () => {  //
