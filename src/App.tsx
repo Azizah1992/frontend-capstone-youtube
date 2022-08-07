@@ -6,6 +6,7 @@ import Library from "./pages/Library";
 import Login from "./pages/Login";
 import SingleVideo from "./pages/SingleVideo";
 import { useAppSelector } from "./app/hooks";
+import "../src/styles/Sidebar.css";
 
 function App() {
   const { theme } = useAppSelector((state) => state.theme);
