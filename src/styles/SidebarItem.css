@@ -1,0 +1,21 @@
+.SidebarItem {
+  padding: 15px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: var(--text-clr);
+  text-decoration: none;
+}
+.SidebarItem:hover {
+  background: rgb(97, 53, 123);
+}
+
+.SidebarItem > svg {
+  font-size: 20px;
+}
+.SidebarItem > p {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,110 @@
+.navbar {
+  height: 56px;
+  background: var(--second-bg-clr);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.navbar__left {
+  display: flex;
+  align-items: center;
+}
+.navbar__left > svg {
+  font-size: 20px;
+  color: var(--text-clr);
+}
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.navbar__logo > img {
+  height: 56px;
+  padding: 5px;
+  object-fit: contain;
+}
+.navbar__logo > h3 {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: var(--text-clr);
+}
+
+.navbar__mid {
+  display: flex;
+  align-items: center;
+  height: 70%;
+  width: 500px;
+}
+
+.navbar__mid > input {
+  height: 100%;
+  flex: 1;
+  font-size: 16px;
+  padding: 0 10px;
+  background: var(--main-bg-clr);
+  border: 1px solid var(--third-bg-clr);
+}
+.navbar__mid > .navbar__icon {
+  background: var(--third-bg-clr);
+  height: 100%;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar__mid > .navbar__icon > svg {
+  font-size: 20px;
+  color: var(--text-clr);
+}
+.navbar__right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-clr);
+}
+.navbar__mode {
+  color: var(--text-clr);
+  background: var(--main-bg-clr);
+  border: 1px solid var(--third-bg-clr);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.navbar__right > a {
+  color: var(--text-clr);
+  background: var(--main-bg-clr);
+  border: 1px solid var(--third-bg-clr);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar__right > button {
+  color: var(--text-clr);
+  padding: 10px 20px;
+  background: var(--main-bg-clr);
+  border: 1px solid var(--third-bg-clr);
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar__mid {
+    display: none;
+  }
+}
