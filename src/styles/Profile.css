@@ -1,0 +1,122 @@
+.profile {
+  min-height: 100vh;
+}
+.profile > main {
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.profile__content {
+  background: var(--main-bg-clr);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__contentTop {
+  padding: 20px 40px;
+  padding-bottom: 0;
+}
+.profile__info {
+  display: flex;
+  align-items: center;
+}
+.profile__avatar {
+  width: 80px;
+  height: 80px;
+  background: teal;
+  border-radius: 50%;
+  font-size: 40px;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.profile__username {
+  font-weight: bold;
+  font-size: 22px;
+  flex: 1;
+  margin: 0 20px;
+  color: var(--text-clr);
+}
+.profile__btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.profile__btns > button {
+  background: var(--blue-clr);
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  color: #111;
+}
+
+.profile__taps {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.profile__tap {
+  width: 130px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0;
+  color: var(--text-clr);
+  position: relative;
+  cursor: pointer;
+}
+.profile__tap:first-child {
+  color: var(--text-clr);
+}
+.profile__tap:first-child::after {
+  content: "";
+  background: var(--text-clr);
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.profile__contentBot {
+  background: var(--the4th-clr);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 208px);
+}
+.profile__empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.profile__empty > img {
+  width: 200px;
+  object-fit: contain;
+}
+.profile__empty > h2 {
+  color: var(--text-clr);
+}
+.profile__empty > p {
+  color: var(--text-clr);
+  max-width: 400px;
+  border: none;
+}
+.profile__empty > button {
+  background: var(--blue-clr);
+  color: #111;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+}
