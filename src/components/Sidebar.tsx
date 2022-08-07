@@ -1,4 +1,3 @@
-import "../styles/Sidebar.css";
 import { AiOutlineLike, AiOutlineTrophy, AiFillYoutube } from "react-icons/ai";
 import { GiAerialSignal } from "react-icons/gi";
 import { FaHome, FaRegUser, FaVideo, FaGamepad } from "react-icons/fa";
@@ -11,6 +10,7 @@ import {
   MdAccessTime,
 } from "react-icons/md";
 
+import "../styles/Sidebar.css";
 const localUser = JSON.parse(localStorage.getItem("user") || "null");  //
 
 const Sidebar = () => {  //
